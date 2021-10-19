@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { IState as Props } from "../../pages/index";
 
+
 interface IProps {
     setPeople: React.Dispatch<React.SetStateAction<Props["people"]>>
     people: Props["people"]
@@ -44,6 +45,7 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
     }
 
     return (
+
         <div className="AddToList">
             <input 
                 type="text"

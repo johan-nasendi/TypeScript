@@ -93,3 +93,14 @@
   border: none
 }
 
+.right {
+  float: right;
+  position: relative;
+  top: 6px;
+}
+
+.top {
+  margin-top: -30px;
+}
+
+

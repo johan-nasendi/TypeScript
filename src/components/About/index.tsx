@@ -3,10 +3,6 @@ import Navbar from '../Navbar'
 import Icon from '../../images/tsx.png'
 const About = () => {
 
-    let photStyle = {
-        height : '30vh',
-    }
-
     return (
         <>
         <Navbar/>

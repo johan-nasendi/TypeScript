@@ -11,7 +11,6 @@ const Navbar = () => {
     
           <ul className="nav nav-pills">
             <li className="nav-item"><a href="/" className="nav-link" aria-current="page">Home</a></li>
-            <li className="nav-item"><a href="/todo" className="nav-link">To Do</a></li>
             <li className="nav-item"><a href="/about" className="nav-link">About</a></li>
           </ul>
         </header>
